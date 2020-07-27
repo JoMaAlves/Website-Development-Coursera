@@ -1,0 +1,20 @@
+body {
+    background-color: lightblue;
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    color: red;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 100px;
+}
+
+.indent {
+    margin-left: 10px;
+}

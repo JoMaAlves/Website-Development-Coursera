@@ -1,0 +1,15 @@
+@media (min-width: 1000px){
+    .responsive {
+        display: inline-block;
+        width: 500px;
+        border: 1px solid black;
+    }
+}
+
+@media (max-width: 999px){
+    .responsive {
+        display: inline-block;
+        width: 400px;
+        border: 1px solid black;
+    }
+}

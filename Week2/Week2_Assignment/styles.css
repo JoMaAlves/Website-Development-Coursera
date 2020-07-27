@@ -1,0 +1,15 @@
+/** This is a comment that the browser will ignore,
+* Put your CSS code into this file
+*/
+
+/*Changing the properties from h1*/
+h1 {
+    /* Setting the color red*/
+    color: red;
+    /*Aligning it to the center*/
+    text-align: center;
+    /*Setting the font size to 100pxs*/
+    font-size: 100px;
+    /*Setting a 2pxs border*/
+    border: 2px solid black;
+}
