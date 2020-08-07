@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous function</title>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <h1 id="title" onclick="sayGoodbye();">Hello JavaScript</h1>
+</body>
+<script type="text/javascript">
+    function sayGoodbye(){
+        $("#title").html("Goodbye JavaScript");
+        $("#title").click(function () {
+            $("#title").html("Hello JavaScript");
+            $("#title").off("click");
+        });
+    };
+</script>
+</html>
